@@ -165,7 +165,7 @@ const ShowProductSingle = async ({ params }: { params: { slug: string } }) => {
               <div className="text-center mb-6 md:mb-14">
                 <h2 className="mb-2">Related Products</h2>
               </div>
-              <LatestProducts products={relatedProducts.slice(0, 4)} />
+              <LatestProducts  />
             </>
           )}
         </div>
