@@ -6,7 +6,7 @@ const nextConfig = {
     missingSuspenseWithCSRBailout: false,
   },
   reactStrictMode: true,
-  basePath: config.base_path !== "/" ? config.base_path : "",
+  basePath: '/',
   trailingSlash: config.site.trailing_slash,
   output: "standalone",
   images: {
