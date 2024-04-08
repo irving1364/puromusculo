@@ -23,10 +23,7 @@ const CollectionsSlider = () => {
   const prevRef = useRef(null);
   const nextRef = useRef(null);
 
-  useEffect(() => {
-    setCollectionsData(collections);
-    setLoadingCollectionsData(false);
-  }, [collections]);
+  useEffect(() => {  }, []);
 
   if (loadingCollectionsData) {
     return <LoadingCategory />;
