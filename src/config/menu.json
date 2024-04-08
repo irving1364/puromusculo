@@ -1,0 +1,46 @@
+{
+  "main": [
+    {
+      "name": "Inicio",
+      "url": "/"
+    },
+    {
+      "name": "Productos",
+      "url": "/"
+    },
+
+    {
+      "name": "Conocenos",
+      "url": "/"
+    },
+
+    {
+      "name": "Contacto",
+      "url": "/"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Conocenos",
+      "url": "/"
+    },
+    {
+      "name": "Products",
+      "url": "/"
+    },
+    {
+      "name": "Contact",
+      "url": "/"
+    }
+  ],
+  "footerCopyright": [
+    {
+      "name": "Privacy & Policy",
+      "url": "/"
+    },
+    {
+      "name": "Terms of Service",
+      "url": "/"
+    }
+  ]
+}
