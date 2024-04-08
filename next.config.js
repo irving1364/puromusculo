@@ -5,10 +5,6 @@ const nextConfig = {
   experimental: {
     missingSuspenseWithCSRBailout: false,
   },
-  reactStrictMode: true,
-  basePath: "/",
-  trailingSlash: config.site.trailing_slash,
-  output: "standalone",
   images: {
     remotePatterns: [
       {
