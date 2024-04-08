@@ -32,9 +32,9 @@
     "next-mdx-remote": "^4.4.1",
     "next-sitemap": "^4.2.3",
     "next-themes": "^0.2.1",
-    "react": "^18.2.0",
+    "react": "18.2.0",
     "react-collapsed": "^4.1.2",
-    "react-dom": "^18.2.0",
+    "react-dom": "18.2.0",
     "react-gravatar": "^2.6.3",
     "react-gtm-module": "^2.0.11",
     "react-icons": "^5.0.1",
@@ -42,7 +42,7 @@
     "react-lite-youtube-embed": "^2.4.0",
     "rehype-slug": "^6.0.0",
     "remark-gfm": "^4.0.0",
-    "sharp": "^0.33.1",
+    "sharp": "0.33.1",
     "swiper": "^11.0.6"
   },
   "devDependencies": {
