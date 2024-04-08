@@ -11,28 +11,8 @@ import FeaturedProducts from "@/partials/FeaturedProducts";
 import SeoMeta from "@/partials/SeoMeta";
 import { Suspense } from "react";
 
-const { collections } = config.shopify;
 
-const ShowHeroSlider = async () => {
-  const sliderImages = await getCollectionProducts({
-    collection: collections.hero_slider,
-  });
-  const { products } = sliderImages;
-  return <HeroSlider products={products} />;
-};
 
-const ShowCollections = async () => {
-  const collections = await getCollections();
-  return <CollectionsSlider collections={collections} />;
-};
-
-const ShowFeaturedProducts = async () => {
-  const { pageInfo, products } = await getCollectionProducts({
-    collection: collections.featured_products,
-    reverse: false,
-  });
-  return <FeaturedProducts products={products} />;
-};
 
 const Home = () => {
   const callToAction = getListPage("sections/call-to-action.md");
